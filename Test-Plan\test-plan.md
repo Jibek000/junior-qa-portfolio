@@ -1,31 +1,58 @@
-# SQL Testing
+# Test Plan – Online Shopping Website
 
-## 1. SELECT – получение всех пользователей
+## 1. Project Overview
+Testing an online shopping website.
 
-SELECT * FROM users;
+## 2. Testing Objectives
+- Verify website functionality.
+- Check user registration and login.
+- Verify product search.
+- Test shopping cart.
+- Check checkout process.
 
-## 2. WHERE – поиск пользователя по ID
+## 3. Scope of Testing
 
-SELECT * FROM users
-WHERE id = 1;
+### In Scope
+- Registration
+- Login
+- Product search
+- Add to cart
+- Checkout
 
-## 3. ORDER BY – сортировка пользователей
+### Out of Scope
+- Payment gateway security
+- Third-party integrations
 
-SELECT * FROM users
-ORDER BY name ASC;
+## 4. Testing Types
+- Functional Testing
+- UI Testing
+- Regression Testing
+- Smoke Testing
+- API Testing
 
-## 4. COUNT – подсчёт пользователей
+## 5. Test Environment
+- OS: Windows
+- Browser: Google Chrome
+- Tool: Postman
+- Testing type: Manual Testing
 
-SELECT COUNT(*) FROM users;
+## 6. Entry Criteria
+- Website is available.
+- Test environment is ready.
+- Requirements are provided.
 
-## 5. JOIN – объединение таблиц
+## 7. Exit Criteria
+- All planned test cases are executed.
+- Critical bugs are fixed.
+- Test results are documented.
 
-SELECT users.name, orders.order_id
-FROM users
-JOIN orders
-ON users.id = orders.user_id;
+## 8. Risks
+- Website downtime.
+- Missing requirements.
+- Delayed bug fixes.
 
-## 6. Проверка пустых значений
-
-SELECT * FROM users
-WHERE email IS NULL;
+## 9. Deliverables
+- Test Cases
+- Checklists
+- Bug Reports
+- Test Execution Results

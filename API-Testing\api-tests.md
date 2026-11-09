@@ -94,3 +94,4 @@ The API returns a successful deletion response.
 - [ ] Verify response body.
 - [ ] Verify response status code.
 - [ ] Verify JSON response format.
+https://jsonplaceholder.typicode.com/posts/1

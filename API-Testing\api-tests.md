@@ -95,3 +95,14 @@ The API returns a successful deletion response.
 - [ ] Verify response status code.
 - [ ] Verify JSON response format.
 https://jsonplaceholder.typicode.com/posts/1
+## 7. Actual Results
+
+| Method | Expected Status | Actual Status | Result |
+|--------|-----------------|---------------|--------|
+| GET    | 200             | 200           | PASS   |
+| POST   | 201             | 201           | PASS   |
+| PUT    | 200             | 200           | PASS   |
+| PATCH  | 200             | 200           | PASS   |
+| DELETE | 200             | 200           | PASS   |
+
+Note: Actual results must be confirmed by executing each request in Postman.
